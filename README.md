@@ -6,8 +6,9 @@
 
 Поддерживаемые форматы файлов: .jpg .png .jfif 
 
-Преобразование: 
+Преобразование:
 Из jpg, jfif  в →  png
+
 Из png, jfif  в → jpg
 
 Использование:
@@ -22,10 +23,13 @@ go get -u github.com/disintegration/imaging
 Для компиляции программ используйте команды:
 
 cd to_jpg
+
 go build -ldflags="-s -w" -gcflags="all=-l" main.go
 
 cd ..
+
 cd to_png
+
 go build -ldflags="-s -w" -gcflags="all=-l" main.go
 
 После компиляции скопируйте "convert_files" в  проект JARVIS в папку commands

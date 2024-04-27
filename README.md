@@ -1,4 +1,4 @@
-# image-converter
+# JARVIS image-converter
 
 Подпрограмма проекта J.A.R.V.I.S. для конвертации графических файлов.
 
